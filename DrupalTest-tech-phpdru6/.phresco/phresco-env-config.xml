@@ -1,0 +1,22 @@
+<environments>
+    <environment default="true" desc="Production Environment is used for Development purpose only" name="Production">
+        <Server desc="Server1" name="Server">
+            <port>80</port>
+            <context>sureshTest</context>
+            <deploy_dir>c:/wamp/www</deploy_dir>
+            <additional_context>/</additional_context>
+            <host>localhost</host>
+            <server>Wamp</server>
+            <protocol>http</protocol>
+        </Server>
+    <Database desc="Db" name="Db">
+            <port>3306</port>
+            <type>mysql</type>
+            <host>localhost</host>
+            <Database>MySQL</Database>
+            <dbname>drupal6test</dbname>
+            <username>root</username>
+			<version>5.5.1</version>
+        </Database>
+    </environment>
+</environments>

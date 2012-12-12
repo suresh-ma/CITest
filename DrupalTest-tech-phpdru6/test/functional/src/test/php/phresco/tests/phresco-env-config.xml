@@ -1,0 +1,25 @@
+<environment>
+ <Browser>chrome</Browser>
+		
+    
+
+
+
+
+
+
+
+
+
+
+
+<Server desc="Server1" name="Server">
+        <port>80</port>
+        <context>sureshTest</context>
+        <deploy_dir>c:/wamp/www</deploy_dir>
+        <host>localhost</host>
+        <additional_context>/</additional_context>
+        <server>Wamp</server>
+        <protocol>http</protocol>
+    </Server>
+</environment>
